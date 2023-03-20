@@ -1,0 +1,119 @@
+/* Shutterbug Bootstrap Project Stylesheet */
+
+/*
+ font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Radio Canada', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+, rgb(96, 69, 43)
+*/
+
+div.container {
+    max-width: 1000px;
+
+}
+
+div.main {
+    background-image: url("../images/intro.jpg");
+    height: 590px;
+    padding: 5%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.main h1 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 3.5em;
+    text-shadow: salmon 3px 2px 5px;
+}
+
+div.main h2 {
+    font-family: 'Roboto Flex', sans-serif;
+    margin-bottom: 3%;
+}
+
+div.main a.btn {
+    background-color: salmon;
+    font-size: 1.5em;
+    color: antiquewhite;
+}
+
+div.section {
+    padding-top: 3%;
+}
+
+div.row h1 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+div.row p {
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 1.5em;
+}
+
+div#store{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: rgba(255, 255, 255, .15);     
+    backdrop-filter: blur(5px);
+}
+
+div.footer ul {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+div.footer a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(155, 155,155);
+}
+
+div.footer h1 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+div.footer a:hover {
+    text-align: center;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 1.5em;
+    color: salmon;
+}
+
+
+/* Color Stylings */
+div#sec_1{
+    background-image: linear-gradient( rgb(156, 160, 157),rgb(187, 208, 223), rgb(70, 148, 203)); 
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: rgb(152 151 151 / 25%); 
+ 
+}
+
+div#sec_2{
+    background-image: radial-gradient(rgb(70, 148, 203), rgb(156, 160, 157));
+}
+
+div#sec_3{
+    background-image: linear-gradient(rgb(124, 156, 174),rgb(187, 208, 223), rgb(166, 174, 27));
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: rgb(152 151 151 / 25%); 
+}
+
+
+body {
+    background-image: url("../images/intro.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+div#footer_text {
+filter: drop-shadow(2px 4px 6px black);
+background-color: rgb(152 151 151 / 25%);
+box-shadow: inset 0 0 0 200px rgb(255 255 255 / 8%);
+background-color: rgba(255, 255, 255, .15);     
+backdrop-filter: blur(5px);
+}
